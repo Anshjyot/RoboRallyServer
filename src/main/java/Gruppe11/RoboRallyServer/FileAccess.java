@@ -14,19 +14,15 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class FileAccess {
-    //private static final String BOARDSFOLDER = ;
+
     String filePath =
             "src/main/resources/saved/savedgame.json";
 
     public void saveGame(String jsonBoard) {
 
         try {
-            /*
-            object mapper kan bruges til at beautify streng i json fil
-             */
-            //ObjectMapper mapper = new ObjectMapper();
+
             FileWriter fileWriter = new FileWriter(filePath);
-            //fileWriter.write(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonBoard));
             fileWriter.write(jsonBoard);
             fileWriter.flush();
         } catch (Exception e) {

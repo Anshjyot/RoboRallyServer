@@ -1,48 +1,16 @@
 {
-  "width": 8,
+  "width": 23,
   "height": 8,
-  "noOfCheckpoints": 1,
+  "noOfCheckpoints": 6,
   "step": 0,
   "spaces": [
     {
       "walls": [],
       "actions": [],
       "x": 0,
-      "y": 0,
-      "startPoint": true,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [],
-      "x": 0,
-      "y": 1,
-      "startPoint": true,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [],
-      "x": 0,
       "y": 2,
       "startPoint": true,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [],
-      "x": 0,
-      "y": 3,
-      "startPoint": true,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [],
-      "x": 0,
-      "y": 4,
-      "startPoint": true,
-      "playerNo": 0
+      "playerNo": 2
     },
     {
       "walls": [],
@@ -54,324 +22,36 @@
     },
     {
       "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "RIGHT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 0,
-      "y": 6,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "DOWN",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 1,
-      "y": 0,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "DOWN",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 1,
-      "y": 1,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "DOWN",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 1,
-      "y": 2,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "DOWN",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 1,
-      "y": 3,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "DOWN",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 1,
-      "y": 4,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "DOWN",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 1,
-      "y": 5,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "RIGHT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 1,
-      "y": 6,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "LEFT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 2,
-      "y": 1,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [
-        "LEFT"
-      ],
       "actions": [],
-      "x": 2,
-      "y": 4,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "RIGHT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 2,
-      "y": 6,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 1,
-            "heading": "RIGHT",
-            "center": false
-          }
-        }
-      ],
-      "x": 3,
+      "x": 1,
       "y": 0,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "LEFT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 3,
-      "y": 1,
-      "startPoint": false,
+      "startPoint": true,
       "playerNo": 0
     },
     {
       "walls": [
         "UP"
       ],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 3,
-            "heading": "UP",
-            "center": true
-          }
-        }
-      ],
-      "x": 3,
-      "y": 2,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 3,
-            "heading": "UP",
-            "center": true
-          }
-        }
-      ],
-      "x": 3,
-      "y": 3,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 3,
-            "heading": "UP",
-            "center": true
-          }
-        }
-      ],
-      "x": 3,
-      "y": 4,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 3,
-            "heading": "UP",
-            "center": false
-          }
-        }
-      ],
-      "x": 3,
-      "y": 5,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "RIGHT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 3,
-      "y": 6,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 1,
-            "heading": "RIGHT",
-            "center": true
-          }
-        }
-      ],
-      "x": 4,
-      "y": 0,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "LEFT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 4,
+      "actions": [],
+      "x": 1,
       "y": 1,
       "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [],
+      "x": 1,
+      "y": 3,
+      "startPoint": true,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [],
+      "x": 1,
+      "y": 4,
+      "startPoint": true,
       "playerNo": 0
     },
     {
@@ -379,42 +59,17 @@
         "DOWN"
       ],
       "actions": [],
-      "x": 4,
-      "y": 5,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "RIGHT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 4,
+      "x": 1,
       "y": 6,
       "startPoint": false,
       "playerNo": 0
     },
     {
       "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 1,
-            "heading": "RIGHT",
-            "center": true
-          }
-        }
-      ],
-      "x": 5,
-      "y": 0,
-      "startPoint": false,
+      "actions": [],
+      "x": 1,
+      "y": 7,
+      "startPoint": true,
       "playerNo": 0
     },
     {
@@ -423,41 +78,35 @@
         {
           "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
           "INSTANCE": {
-            "heading": "LEFT",
+            "heading": "RIGHT",
             "speed": 1
           }
         }
       ],
-      "x": 5,
-      "y": 1,
+      "x": 2,
+      "y": 0,
       "startPoint": false,
       "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [],
-      "x": 5,
-      "y": 2,
-      "startPoint": false,
-      "playerNo": 2
     },
     {
       "walls": [
         "RIGHT"
       ],
       "actions": [],
-      "x": 5,
+      "x": 2,
       "y": 3,
       "startPoint": false,
       "playerNo": 0
     },
     {
-      "walls": [],
+      "walls": [
+        "RIGHT"
+      ],
       "actions": [],
-      "x": 5,
+      "x": 2,
       "y": 4,
       "startPoint": false,
-      "playerNo": 1
+      "playerNo": 0
     },
     {
       "walls": [],
@@ -470,136 +119,7 @@
           }
         }
       ],
-      "x": 5,
-      "y": 6,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
-          "INSTANCE": {
-            "noOfLaser": 1,
-            "heading": "RIGHT",
-            "center": true
-          }
-        }
-      ],
-      "x": 6,
-      "y": 0,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "LEFT",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 6,
-      "y": 1,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "UP",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 6,
-      "y": 2,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "UP",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 6,
-      "y": 3,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "UP",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 6,
-      "y": 4,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "UP",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 6,
-      "y": 5,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "UP",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 6,
-      "y": 6,
-      "startPoint": false,
-      "playerNo": 0
-    },
-    {
-      "walls": [],
-      "actions": [
-        {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
-          "INSTANCE": {
-            "heading": "UP",
-            "speed": 1
-          }
-        }
-      ],
-      "x": 6,
+      "x": 2,
       "y": 7,
       "startPoint": false,
       "playerNo": 0
@@ -608,16 +128,47 @@
       "walls": [],
       "actions": [
         {
-          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
           "INSTANCE": {
-            "noOfLaser": 1,
-            "heading": "RIGHT",
-            "center": true
+            "heading": "DOWN",
+            "speed": 1
           }
         }
       ],
-      "x": 7,
-      "y": 0,
+      "x": 3,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 3,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 3,
+      "y": 6,
       "startPoint": false,
       "playerNo": 0
     },
@@ -632,8 +183,176 @@
           }
         }
       ],
-      "x": 7,
+      "x": 4,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "DOWN"
+          }
+        }
+      ],
+      "x": 4,
       "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 4,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 4,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [
+        "RIGHT"
+      ],
+      "actions": [],
+      "x": 4,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "RIGHT"
+          }
+        }
+      ],
+      "x": 4,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 5,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "RIGHT"
+          }
+        }
+      ],
+      "x": 5,
+      "y": 2,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Pit",
+          "INSTANCE": {}
+        }
+      ],
+      "x": 5,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Pit",
+          "INSTANCE": {}
+        }
+      ],
+      "x": 5,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 6,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [
+        "DOWN"
+      ],
+      "actions": [],
+      "x": 6,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Pit",
+          "INSTANCE": {}
+        }
+      ],
+      "x": 6,
+      "y": 2,
       "startPoint": false,
       "playerNo": 0
     },
@@ -647,8 +366,1155 @@
           }
         }
       ],
+      "x": 6,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 1
+          }
+        }
+      ],
       "x": 7,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 7,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [
+        "LEFT"
+      ],
+      "actions": [],
+      "x": 7,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Pit",
+          "INSTANCE": {}
+        }
+      ],
+      "x": 7,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": false
+          }
+        }
+      ],
+      "x": 7,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 7,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 8,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 8,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 8,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 8,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "RIGHT"
+          }
+        }
+      ],
+      "x": 9,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Pit",
+          "INSTANCE": {}
+        }
+      ],
+      "x": 9,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [
+        "DOWN"
+      ],
+      "actions": [],
+      "x": 9,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        },
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 9,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 9,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "DOWN"
+          }
+        }
+      ],
+      "x": 10,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Checkpoint",
+          "INSTANCE": {
+            "checkpointNo": 2
+          }
+        }
+      ],
+      "x": 10,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        },
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 10,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 10,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 11,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [
+        "LEFT"
+      ],
+      "actions": [],
+      "x": 11,
       "y": 2,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 11,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 11,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 11,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 11,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 12,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 12,
+      "y": 2,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 12,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 12,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Gear",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 13,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 2,
+            "heading": "DOWN",
+            "center": false
+          }
+        }
+      ],
+      "x": 13,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Gear",
+          "INSTANCE": {
+            "heading": "RIGHT"
+          }
+        },
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 2,
+            "heading": "DOWN",
+            "center": true
+          }
+        },
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 3,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 13,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 2,
+            "heading": "DOWN",
+            "center": true
+          }
+        }
+      ],
+      "x": 13,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Reboot",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 14,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 1
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 14,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Checkpoint",
+          "INSTANCE": {
+            "checkpointNo": 3
+          }
+        }
+      ],
+      "x": 14,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 15,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 15,
+      "y": 2,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 15,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 15,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "DOWN",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 15,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 15,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 16,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 16,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 17,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Checkpoint",
+          "INSTANCE": {
+            "checkpointNo": 5
+          }
+        }
+      ],
+      "x": 17,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [
+        "DOWN"
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 17,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 18,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 18,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 18,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 18,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 18,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 18,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 19,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 19,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.PushPanels",
+          "INSTANCE": {
+            "heading": "RIGHT"
+          }
+        }
+      ],
+      "x": 19,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [
+        "UP"
+      ],
+      "actions": [],
+      "x": 19,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Gear",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 20,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "LEFT",
+            "speed": 2
+          }
+        }
+      ],
+      "x": 20,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "RIGHT",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 20,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 1,
+            "heading": "RIGHT",
+            "center": false
+          }
+        }
+      ],
+      "x": 20,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Pit",
+          "INSTANCE": {}
+        }
+      ],
+      "x": 20,
+      "y": 6,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 21,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 21,
+      "y": 1,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 21,
+      "y": 2,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "UP",
+            "speed": 1
+          }
+        }
+      ],
+      "x": 21,
+      "y": 3,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Gear",
+          "INSTANCE": {
+            "heading": "RIGHT"
+          }
+        }
+      ],
+      "x": 21,
+      "y": 4,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 1,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 21,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Gear",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 21,
+      "y": 7,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Checkpoint",
+          "INSTANCE": {
+            "checkpointNo": 4
+          }
+        }
+      ],
+      "x": 22,
+      "y": 0,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Laser",
+          "INSTANCE": {
+            "noOfLaser": 1,
+            "heading": "RIGHT",
+            "center": true
+          }
+        }
+      ],
+      "x": 22,
+      "y": 5,
+      "startPoint": false,
+      "playerNo": 0
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Checkpoint",
+          "INSTANCE": {
+            "checkpointNo": 6
+          }
+        }
+      ],
+      "x": 22,
+      "y": 7,
       "startPoint": false,
       "playerNo": 0
     }
@@ -656,18 +1522,25 @@
   "positions": [
     {
       "walls": [],
-      "actions": [],
-      "x": 5,
-      "y": 4,
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.boardelements.Reboot",
+          "INSTANCE": {
+            "heading": "LEFT"
+          }
+        }
+      ],
+      "x": 14,
+      "y": 0,
       "startPoint": false,
       "playerNo": 1
     },
     {
       "walls": [],
       "actions": [],
-      "x": 5,
+      "x": 0,
       "y": 2,
-      "startPoint": false,
+      "startPoint": true,
       "playerNo": 2
     },
     null,

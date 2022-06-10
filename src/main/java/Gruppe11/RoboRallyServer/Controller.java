@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class Controller {
     /*
-    Denne metodes logik er at modtage et board og sende til de andre klienter
+    Denne metodes logik er at modtage et board og sende til de andre klienter.
      */
     @PostMapping("/transferBoard")
     public void transferBoard(@RequestBody String jsonBoard) {
